@@ -9,6 +9,6 @@ class TestCreateBankAccount(unittest.TestCase):
         pierwsze_konto = Konto(self.imie, self.nazwisko)
         self.assertEqual(pierwsze_konto.imie, "Dariusz", "Imie nie zostało zapisane!")
         self.assertEqual(pierwsze_konto.nazwisko, "Januszewski", "Nazwisko nie zostało zapisane!")
-        self.assertEqual(pierwsze_konto.saldo, 0, "Saldo nie jest zerowe!")
+        self.assertEqual(pierwsze_konto.saldo, 0, "Saldo nie jest zerowe!") 
 
     #tutaj proszę dodawać nowe testy
